@@ -91,8 +91,9 @@ h1, p, li{
     width: 100%; 
     height: auto; 
     border-radius: 10px; 
-    max-height:240px;
-    transition-duration: 1.4s;
+    max-height:300px;
+    min-height: 250px;
+    transition-duration: 0.01s;
 }
 .card p{
     background-color: white;
@@ -112,6 +113,7 @@ h1, p, li{
     gap: 20px;
 }
 #logocontainer img{
+    
     max-width: 50px;
     border-radius: 10px;
     transition-duration: 0.0.1s;
